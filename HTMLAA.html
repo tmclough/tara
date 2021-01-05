@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
 <link rel="stylesheet" type="text/css" href="CSSAA.css">
+<script src="JSAA.js"></script>
+
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <center><h1>Automotive Allure</h1></center>
 
     <body>
+    <div id ="page1" class="page" style="">
       <nav>
         <a href="#about">About Automotive Allure</a> |
         <a href="#services">Services We Provide</a> |
@@ -13,25 +16,316 @@
         <a href="#contact">Contact Us</a>
       </nav>
       <div>
-        <h2 id="about">Jake Pampinella Automotive Alluresummary</h2>
+        <h2 id="about">
+          <label id=lb1>About Us:</label><br>
+          <p id ="explain">We are a New York based automotive detailing service. Automotive Allure specializes in the preservation and restoration of automotive paint, as well as interior materials; vinyl, leather, etc.
+
+          Day-to-day use and exposure to natural elements results in oxidation and wear. Our services are used to eliminate such, and not only resurrect the experience of a showroom quality vehicle, but ensure that it lasts as long as possible. Keeping one’s personal vehicle clean has many benefits; most importantly, it will allow the owner and mechanics to identify problems much easier. Our services range in price due to various factors, and we cater towards the worker/enthusiast who is not willing to risk the damages imminent from an automated car wash.
+          Automotive Allure is run by car-enthusiasts with experience in the field; and while we are not limited to the services listed, we are consistently challenging ourselves in both our work and towards innovation.
+
+        </p>
+        <p>Main Location in Bayridge, Brooklyn, NY</p>
+        <p id = "wecome"> We come to you! </p>
+
+<iframe class ="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24225.064237600054!2d-74.0458912998557!3d40.62694812782119!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2455f3f1cab0d%3A0xa5a45198ea4d73d6!2sBay%20Ridge%2C%20Brooklyn%2C%20NY!5e0!3m2!1sen!2sus!4v1609364690823!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+<img class = "map" src="jake.jpg" alt="pic2" width="200" height="450">
+<img id = "pic26" src="pic26.jpg" alt="pic2" width="800" height="450">
+</h2>
+
         <h3 id ="services">
+          <label class="menu">Services:</label>
           <dl>
-            <dt>Wash</dt>
-              <dd>Whatever it is with prce</dd>
-              <dt>Wax</dt>
-                <dd>Whatever it is with price</dd>
+
+            <dt class="choices">The Basic:</dt>
+              <dd>The most economical service available. Includes an interior and exterior wash plus a light vacuum. Finished off with wheel and paint glaze.</dd>
+              <dt class="choices">The Sunday Routine:</dt>
+                <dd>This service consists of an interior and exterior wash, with a vacuum. A liquid wax is applied to the paint for shine as well as add a layer of protection.</dd>
+              <dt class="choices">The Claybar:</dt>
+                <dd>A claybar is a service that improves the feel of your vehicle’s paint. Throughout its life, dirt becomes embedded into its surface, and can cause the paint to become coarse and murky. A clay material is applied to the paint, removing embedded particles. Bringing back a glassy smooth finish. In addition to this, a stronger, paste wax-sealant is applied for long term durability and protection of paint.</dd>
+
+              <dt class="choices">The Compound:</dt>
+                <dd>The compound service is meant to truly bring out the shine in a vehicles paint. The panels on a vehicle come into contact with many items throughout it’s life, and they cause microscopic, shallow scratches in upper layer of paint. These, swirl marks, and oxidation of the paint under sun exposure, can blemish the paint and remove it’s factory shine. The Compound removes the top layer of contaminated, oxidized paint, where it is replaced with a coat of sealant-wax.</dd>
+              <dt class="choices">The Works:</dt>
+                <dd>The works is the most drastic service available. It includes all services listen above, including a wash, claybar, compound, and wax.</dd>
 
           </dl>
+
         </h3>
-        <p><img src="download.jpg" alt="Smiley face" width="42" height="42"> This is some text. This is some text. This is some text.</p>
+
         <h4 id="customers"></h4>
+        <label class = "menu">Previous Customers:</label>
+        <div class="row">
+          <div class="column">
+            <img src="pic1.jpg" alt="pic1" width="400" height="300" id="pic1">
+            <button onclick="myFunction('page2');" id ="b1" type="button">Learn More About my Services</button>
 
-        <marquee behavior="scroll" direction="left">My car shined like a mirror! </marquee>
-          <p><marquee behavior="scroll" direction="right">Jake was so friendly and did a great job!</marquee><p>
+
+        </div>
+        <div class="column">
+          <img src="pic10.jpg" alt="pic2" width="400" height="300">
+          <button onclick="myFunction('page3')" id ="b2" type="button">Learn More About my Services</button>
+        </div>
+        <div class="column">
+          <img src="pic3.jpg" alt="pic2" width="400" height="300">
+          <button onclick="myFunction('page4')" id ="b3" type="button">Learn More About my Services</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="column">
+            <img src="pic4.jpg" alt="pic1" width="400" height="300">
+            <button onclick="myFunction('page5')" id ="b4" type="button">Learn More About my Services</button>
+            </div>
+            <div class="column">
+              <img src="pic17.jpg" alt="pic1" width="400" height="300">
+              <button onclick="myFunction('page6')" id ="b5" type="button">Learn More About my Services</button>
+              </div>
+              <div class="column">
+                <img src="pic7.jpg" alt="pic1" width="400" height="300">
+                <button onclick="myFunction('page7')" id ="b6" type="button">Learn More About my Services</button>
+                </div>
+        </div>
 
 
-        <h5 id= "contact">
+        <p><marquee behavior="scroll" direction="left">My car shined like a mirror! </marquee></p>
+          <marquee behavior="scroll" direction="right">Service was great and they did my car justice!</marquee>
+
+
+        <div id= "contact">
+        <label class = "menu">Contact Us:</label>
+        <ul id= "contactlist">
+          <li><a href = "mailto:automotiveallurebk@gmail.com">Email:Automotiveallurebk@gmail.com</a></li>
+          <li><a href = "https://www.instagram.com/automotiveallurenyc/">Instagram: @Automotiveallurenyc</a></li>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeiULctlJ1UI2apO4CQa2wo1G8yxTvMU173QzY3-Y6i0nun_w/viewform?embedded=true" width="450" height="300" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+</div>
+
+        </ul>
+
+
+      </h5>
       </div>
+    </div>
+
+    <div id ="page2" class="page" style="display:none">
+      <label id ="blue" class="menu">Jeep Gladiator Rubicon:</label>
+      <div class ="container">
+
+        <h4>Before:</h4>
+        <img class="xx" class ="p2imgs" src="npic1.jpg" alt="pic2" width="400" height="300">
+
+        <img class ="p2imgs" src="npic2.jpg" alt="pic2" width="400" height="300">
+          <h4>After:</h4>
+        <img class = "xc" class ="p2imgs" src="npic3.jpg" alt="pic2" width="400" height="300">
+        <img class ="p2imgs" src="npic4.jpg" alt="pic2" width="400" height="300">
+
+
+
+
+    </div>
+    <div class ="container2">
+      <label id ="blue" class = "menu">Services Provided:</label><br>
+      <ul>
+        <li class = "menu">Sticker Residue Removal</li>
+        <li class = "menu">Wash</li>
+        <li class = "menu">Glaze</li>
+        <li class = "menu">Interior Detail with Vaccum</li>
+      </ul>
+
+
+
+
+
+    </div>
+
+    <button onClick="window.location.reload();">Return to Home Page</button>
+
+
+    </div>
+
+    <div id ="page3" class="page" style="display:none">
+      <label id ="blue" class="menu">Porsche Maccan:</label>
+      <div class ="container">
+
+        <h4>Before:</h4>
+        <img class="xx" class ="p2imgs" src="pic8.jpg" alt="pic2" width="400" height="300">
+
+        <img class ="p2imgs" src="pic9.jpg" alt="pic9" width="400" height="300">
+          <h4>After:</h4>
+        <img class = "xc" class ="p2imgs" src="pic10.jpg" alt="pic2" width="400" height="300">
+        <img class ="p2imgs" src="pic11.jpg" alt="pic2" width="400" height="300">
+
+
+
+
+    </div>
+    <div class ="container2">
+      <label id ="blue" class = "menu">Services Provided:</label><br>
+      <h5>The Basic:</h5>
+      <ul>
+
+            <li class = "menu">Wash</li>
+            <li class = "menu">Glaze</li>
+            <li class = "menu">Interior Detail with Vaccum</li>
+      </ul>
+
+
+
+
+
+    </div>
+
+  <button onClick="window.location.reload();">Return to Home Page</button>
+</div>
+
+
+    <div id ="page4" class="page" style="display:none">
+      <label id ="blue" class="menu">Porsche Panamera Turbo:</label>
+      <div class ="container">
+
+        <h4>Before:</h4>
+        <img class="xx" class ="p2imgs" src="pic12.jpg" alt="pic2" width="400" height="300">
+
+        <img class ="p2imgs" src="pic13.jpg" alt="pic2" width="400" height="300">
+          <h4>After:</h4>
+          <video class ="xx" width="800" controls>
+            <source src="video1.mov" type="video/mp4">
+
+            </video>
+
+
+
+
+
+    </div>
+    <div class ="container2">
+      <label id ="blue" class = "menu">Services Provided:</label><br>
+      <ul>
+        <li class = "menu">Wash</li>
+        <li class = "menu">Claybar</li>
+        <li class = "menu">Liquid Wax</li>
+        <li class = "menu">Interior Detail with Vaccum</li>
+      </ul>
+
+
+
+
+
+    </div>
+
+    <button onClick="window.location.reload();">Return to Home Page</button>
+
+</div>
+
+    <div id ="page5" class="page" style="display:none">
+      <label id ="blue" class="menu">Ford Raptor:</label>
+      <div class ="container">
+
+        <h4>Before:</h4>
+        <img class="xx" class ="p2imgs" src="pic20.jpg" alt="pic2" width="400" height="300">
+
+        <img class ="p2imgs" src="pic19.jpg" alt="pic2" width="400" height="300">
+          <h4>After:</h4>
+        <img class = "xc" class ="p2imgs" src="pic4.jpg" alt="pic2" width="400" height="300">
+        <img class ="p2imgs" src="pic18.jpg" alt="pic2" width="400" height="300">
+
+
+
+
+
+    </div>
+    <div class ="container2">
+      <label id ="blue" class = "menu">Services Provided:</label><br>
+      <ul>
+        <li class = "menu">Wash</li>
+        <li class = "menu">Claybar</li>
+        <li class = "menu">Wax</li>
+      </ul>
+
+
+
+
+
+    </div>
+
+  <button onClick="window.location.reload();">Return to Home Page</button>
+</div>
+
+
+    <div id ="page6" class="page" style="display:none">
+      <label id ="blue" class="menu">2018 BMW 428i:</label>
+      <div class ="container">
+
+        <h4>Before:</h4>
+        <img class="xx" class ="p2imgs" src="pic16.jpg" alt="pic2" width="400" height="300">
+
+        <img class ="p2imgs" src="pic15.jpg" alt="pic2" width="400" height="300">
+          <h4>After:</h4>
+        <img class = "xc" class ="p2imgs" src="pic17.jpg" alt="pic2" width="400" height="300">
+        <img class ="p2imgs" src="pic14.jpg" alt="pic2" width="400" height="300">
+
+
+
+
+
+    </div>
+    <div class ="container2">
+      <label id ="blue" class = "menu">Services Provided:</label><br>
+      <h4>The Claybar</h4>
+      <ul>
+        <li class = "menu">Claybar</li>
+        <li class = "menu">Wash</li>
+
+
+      </ul>
+
+
+
+
+
+    </div>
+
+    <button onClick="window.location.reload();">Return to Home Page</button>
+</div>
+
+    <div id ="page7" class="page" style="display:none">
+      <label id ="blue" class="menu">2018 BMW 540i:</label>
+      <div class ="container">
+
+        <h4>Before:</h4>
+        <img class="xx" class ="p2imgs" src="pic21.jpg" alt="pic2" width="400" height="300">
+
+        <img class ="p2imgs" src="pic22.jpg" alt="pic2" width="400" height="300">
+          <h4>After:</h4>
+        <img class = "xc" class ="p2imgs" src="pic7.jpg" alt="pic2" width="400" height="300">
+        <img class ="p2imgs" src="pic24.jpg" alt="pic2" width="400" height="300">
+
+
+
+
+    </div>
+    <div class ="container2">
+      <label id ="blue" class = "menu">Services Provided:</label><br>
+      <ul>
+        <li class = "menu">Wash</li>
+        <li class = "menu">Wash</li>
+        <li class = "menu">Interior Detail</li>
+      </ul>
+
+
+
+
+
+    </div>
+
+  <button onClick="window.location.reload();">Return to Home Page</button>
+
+    </div>
+
+
+
+
+
+
 
 
     </body>
